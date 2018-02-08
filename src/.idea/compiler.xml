@@ -6,10 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="filter" />
         <module name="registry" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dubbo.extension.filter" target="1.8" />
+      <module name="filter" target="1.8" />
       <module name="registry" target="1.8" />
       <module name="src" target="1.8" />
     </bytecodeTargetLevel>

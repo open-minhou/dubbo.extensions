@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/filter/dubbo.extension.filter.iml" filepath="$PROJECT_DIR$/filter/dubbo.extension.filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filter/filter.iml" filepath="$PROJECT_DIR$/filter/filter.iml" />
       <module fileurl="file://$PROJECT_DIR$/registry/registry.iml" filepath="$PROJECT_DIR$/registry/registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/src.iml" filepath="$PROJECT_DIR$/src.iml" />
     </modules>
