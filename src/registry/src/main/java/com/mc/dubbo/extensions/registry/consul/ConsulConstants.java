@@ -7,16 +7,16 @@ public class ConsulConstants {
     public static final String CONSUL_SERVICE_PRE = "providers_";
 
     /**
-     * motan协议在consul tag中的前缀
+     * dubbbo tag中的前缀
      */
     public static final String CONSUL_TAG_PROTOCOL = "protocol_";
 
     public static final String CONSUL_TAG_URL = "URL_";
 
     /**
-     * motan rpc 在consul中存储command的目录
+     * dubbbo rpc 在consul中存储command的目录
      */
-    public static final String CONSUL_COMMAND = "motan/command/";
+    public static final String CONSUL_COMMAND = "dubbbo/command/";
 
     /**
      * 默认consul agent的ip
